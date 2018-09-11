@@ -1,5 +1,247 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.small {
+  border-radius: 3px;
+  font-size: 16px;
+  height: 26px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  margin-right: 7px;
+  line-height: 1.5;
+}
+.middle {
+  border-radius: 5px;
+  font-size: 20px;
+  height: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  margin-right: 7px;
+  line-height: 1.5;
+}
+.large {
+  border-radius: 7px;
+  font-size: 24px;
+  height: 38px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: inline-block;
+  margin-right: 7px;
+  line-height: 1.5;
+}
+.common {
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+}
+.error {
+  background-color: #ff4081;
+  color: #fff;
+  cursor: pointer;
+}
+.disabled {
+  background-color: #e5e5e5;
+  color: #fff;
+  cursor: default;
+}
+.shadow {
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+  cursor: pointer;
+}
+.q8-form {
+  width: 700px;
+  padding: 20px;
+  margin:0 auto;
+  background-color: #ECF1F2;
+}
+.form-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-title:before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #CCC;
+  content: "";
+}
+.form-title-text {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.sukima {
+  margin-top: 20px;
+}
+.form-left {
+  float: left;
+  width: 300px;
+}
+.form-left-items {
+  margin-bottom: 20px;
+}
+.items-title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+.items-content {
+  float: right;
+  width: 180px;
+}
+.form-back:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+.form-input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+.form-input-init {
+  background-color: none;
+  border: none;
+  outline: none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+}
+.radio {
+  cursor: pointer;
+}
+.radio-button {
+  display: none;
+}
+.radio-text {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+.radio-text:before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 50%;
+  content: "";
+}
+.radio-button:checked + .radio-text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -5px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: "";
+}
+.select-body {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.form-select {
+  position: relative;
+}
+.form-select:after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+.form-checkbox {
+  text-align: right;
+}
+.checkbox-button {
+  display: none;
+}
+.checkbox-text {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+.checkbox-text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  content: "";
+}
+.checkbox-button:checked + .checkbox-text:after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: "";
+}
+.form-bottom {
+  text-align: right;
+}
+.send-button {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+.form-right {
+  float: right;
+  width: 380px;
+}
+.otherwise-text {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
 /* 回答はここに書いてね */

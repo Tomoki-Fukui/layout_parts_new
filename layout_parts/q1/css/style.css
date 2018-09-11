@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.main {
+  background: #022336;
+  margin: 0 auto;
+  width: 900px;
+  height: auto;
+}
+.three-box {
+  background-color: #3274ae;
+  width: 270px;
+  height: auto;
+  float: left;
+  margin-left: 20px;
+}
+.three-minibox {
+  position: relative;
+  float: left;
+  background-color: #eaf3f4;
+  width: 170px;
+  border: 10px solid;
+  border-color: #022336;
+  padding: 20px;
+  margin: 20px;
+}
+.p {
+  position: absolute;
+  font-size: 16px;
+  line-height: 16px;
+}
 /* 回答はここに書いてね */
