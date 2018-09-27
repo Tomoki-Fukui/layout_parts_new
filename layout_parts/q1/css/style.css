@@ -2,31 +2,29 @@
 
 /* 回答はここに書いてね */
 .main {
-  background: #022336;
+  background: #EFF3F4;
   margin: 0 auto;
   width: 900px;
-  height: auto;
+  padding: 20px;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
 }
 .three-box {
   background-color: #3274ae;
-  width: 270px;
-  height: auto;
+  width: 230px;
   float: left;
+  padding: 20px;
   margin-left: 20px;
 }
-.three-minibox {
-  position: relative;
-  float: left;
-  background-color: #eaf3f4;
-  width: 170px;
-  border: 10px solid;
-  border-color: #022336;
-  padding: 20px;
-  margin: 20px;
+.three-box:first-child {
+  margin-left: 0;
 }
-.p {
-  position: absolute;
-  font-size: 16px;
-  line-height: 16px;
+.three-minibox {
+  background-color: #eaf4ff;
+  border: 10px solid #022336;
+  padding: 20px;
 }
 /* 回答はここに書いてね */

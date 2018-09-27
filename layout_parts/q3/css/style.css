@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.q3-table {
   border: solid 1px #dedede;
   table-layout: fixed;
   width: 100%;

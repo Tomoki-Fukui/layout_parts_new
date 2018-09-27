@@ -1,11 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6-1 {
-  display: block;
+.text-align {
+  text-align: center;
+}
+.q6-1-text-align {
+  display: inline-block;
+  padding: 10px 0;
+  width: 90px;
+  background-color: #E6F2FF;
+}
+.q6-1-margin {
   width: 90px;
   background-color: #e6f2ff;
-  padding: 10px;
+  padding: 10px 0;
   text-align: center;
   margin: 0 auto;
 }
@@ -32,7 +40,6 @@
 }
 .flex {
   display: inline-block;
-  text-align: center;
   background-color: #fff;
   padding: 10px;
 }
@@ -55,6 +62,5 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
 }
 /* 回答はここに書いてね */

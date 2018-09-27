@@ -4,32 +4,26 @@
 .small {
   border-radius: 3px;
   font-size: 16px;
-  height: 26px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   display: inline-block;
   margin-right: 7px;
-  line-height: 1.5;
+  line-height: 26px;
 }
 .middle {
   border-radius: 5px;
   font-size: 20px;
-  height: 32px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   display: inline-block;
   margin-right: 7px;
-  line-height: 1.5;
+  line-height: 32px;
 }
 .large {
   border-radius: 7px;
   font-size: 24px;
-  height: 38px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0 25px;
   display: inline-block;
   margin-right: 7px;
-  line-height: 1.5;
+  line-height: 38px;
 }
 .common {
   background-color: #00bcd4;
@@ -229,6 +223,10 @@
   cursor: pointer;
   font-size: 16px;
   line-height: 26px;
+}
+.send-button:active {
+  background-color: #FFF;
+  color: #00BCD4;
 }
 .form-right {
   float: right;
