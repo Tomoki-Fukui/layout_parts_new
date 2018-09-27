@@ -6,10 +6,10 @@
   table-layout: fixed;
   width: 100%;
 }
-tr:nth-child(2n+1) {
+.q3-table tr:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
-th {
+.q3-table th {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
@@ -18,7 +18,7 @@ th {
   padding-bottom: 10px;
   border: solid 1px #dedede;
 }
-td {
+.q3-table td {
   text-align: center;
   vertical-align: middle;
   padding-top: 10px;
@@ -27,7 +27,7 @@ td {
   line-height: 22px;
   border: solid 1px #dedede;
 }
-tr:last-child {
+.q3-table tr:last-child {
   border-top: dashed 2px #000;
 }
 /* 回答はここに書いてね */
